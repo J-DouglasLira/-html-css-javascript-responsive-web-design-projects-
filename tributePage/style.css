@@ -2,6 +2,8 @@
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -21,31 +23,38 @@ body {
 .drnormanname{
   margin: 52px;
 }
-.github{
-position: relative;
 
+#github{
+  filter: invert(100%);
 }
-
-
 .githubfigure{
   width: 50px;
-
 }
 
 .linkedinfigure{
-  width: 70px;
-  margin-top: 0;
+  position:relative;
+  margin-top: 15px;
+  width: 50px;
+}
+
+.githubfigure:hover{
+  transform:scale(2);
+}
+
+
+.linkedinfigure:hover{
+  transform:scale(2);
 }
 
 
 .main-menu{
   width: 100%;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); 
+  background-image: linear-gradient(to right, #240047, #1c0021); 
   height: 50px;
-  top: 0;
   display:flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
 
 #image{
   max-width: 100%;
@@ -89,3 +98,15 @@ blockquote{
 .citation{
   font-size: 1.5rem;
 }
+
+
+
+@media(max-width:350px){
+  h1{
+   font-size:1rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+}
+
