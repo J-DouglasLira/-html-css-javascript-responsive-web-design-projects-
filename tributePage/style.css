@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-#header{
-    height: 50px;
-    width: 100%;
-    background-color: #cbcfcf;
-    border: 1px solid black;
-}
+
+
 body {
   background: #cbcfcf;
   font-size: 1.8rem;
@@ -18,10 +14,24 @@ body {
 }
 
 #main{
-  margin: 10px auto 10px auto;
+  margin: 10px 0;
+  width: 100%;
   text-align: center;
   background: #dad0d7;
 }
+.drnormanname{
+  margin: 52px;
+}
+.main-menu{
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  position:fixed;
+  lefT: 0;
+  top: 0;
+  display: flex;
+}
+
 #image{
   max-width: 100%;
   height: auto;
@@ -34,6 +44,7 @@ body {
 #img-div{
   padding: 10px;
   margin: 8px;
+  border-radius: 10px;
   background: white;
 }
 
