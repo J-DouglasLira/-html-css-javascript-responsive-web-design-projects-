@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+#header{
+    height: 50px;
+    width: 100%;
+    background-color: #cbcfcf;
+    border: 1px solid black;
+}
+body {
+  background: #cbcfcf;
+  font-size: 1.8rem;
+  line-height: normal;
+  font-family: 'Abel', sans-serif;
+}
+
+#main{
+  margin: 10px auto 10px auto;
+  text-align: center;
+  background: #dad0d7;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+}
+.subtitle{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#img-div{
+  padding: 10px;
+  margin: 8px;
+  background: white;
+}
+
+#img-caption{
+  font-size: 1.3rem;
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+
+#tribute-info{
+  max-width: 550px;
+  margin: 0 auto 30px auto; 
+    /* to create a space around elements*/
+  text-align: left;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+}
+
+blockquote{
+  font-family: italic;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.citation{
+  font-size: 1.5rem;
+}
