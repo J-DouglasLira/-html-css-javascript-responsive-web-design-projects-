@@ -99,6 +99,18 @@ blockquote{
   font-size: 1.5rem;
 }
 
+#wikipedia{
+  margin-bottom: 50px;
+}
+#tribute-link{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold; 
+}
+
+
+
+
 
 @media(max-width:350px){
   main .drnormanname {
@@ -130,7 +142,7 @@ blockquote{
     font-size: 1.2rem;
   }
   h3{
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-bottom: 15px;
   }
 }
