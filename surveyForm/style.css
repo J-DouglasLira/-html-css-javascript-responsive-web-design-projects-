@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+  counter-reset: headings;
+}
+
+body {
+  background: var(--color-white);
+}
+
+
+#title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+
+#codecamptitle{
+  margin: auto;
+}
+
+#description{
+  font-size: 0.8rem;
+  margin: auto;
+}
+
+.text{
+  margin: 10px auto 5px 10px;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+.input-checkbox{
+  margin: 10px auto 5px 10px;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+
+
+
+#name, #email, #age, #form-group{
+  margin: 10px auto 5px 10px;
+  padding: 0.25rem;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+
+
+
+#place-holder, #dropdown {
+  margin: 0 auto 5px 10px;
+  width:clamp(150px,50%,400px);
+  font-size: clamp(0.5rem,50%,1rem);
+}
+
+.input-checkbox{
+  justify-content: left;
+  place-items: left;
+}
+
+#main {
+  background-color: var(--color-darkblue-alpha);
+  width: clamp(250px,50%,1000px);
+  font-size: clamp(15px, 50%, 50px);
+  height: auto;
+  border-radius: 0.25rem;
+  display: grid;
+  grid-template-columns: left;
+  grid-template-rows: left;
+  justify-content: left;
+  place-items: left;
+  margin: 10px auto auto auto;
+  border: 1px solid
+}
+.droping{
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order)*100ms);
+}
+@keyframes dropIn{
+  from{transform: translateY(-500px);}
+  to {transform: translateY(0);}
+}
+
+.grid {
+  width: clamp(200px, 50%, 600px);
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  grid-template-rows: 100px 200px;
+}
