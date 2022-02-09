@@ -12,10 +12,13 @@
 
 body {
   background: var(--color-white);
+  background-image: url("https://miro.medium.com/max/875/0*xQwTirJ8sGya9dlS");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
-#title{
+#title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,78 +26,109 @@ body {
   margin: auto;
 }
 
-#codecamptitle{
-  margin: auto;
-}
-
-#description{
-  font-size: 0.8rem;
-  margin: auto;
-}
-
-.text{
-  margin: 10px auto 5px 10px;
-  padding: 0.25rem;
-  font-size: 1.25rem;
-}
-
-
-
-
-
-
-.input-checkbox{
-  margin: 10px auto 5px 10px;
-  padding: 0.25rem;
-  font-size: 1.25rem;
-}
-
-
-
-
-#name, #email, #age, #form-group{
-  margin: 10px auto 5px 10px;
-  padding: 0.25rem;
-  align-items: center;
-  font-size: 1.25rem;
-}
-
-
-
-
-#place-holder, #dropdown {
-  margin: 0 auto 5px 10px;
-  width:clamp(150px,50%,400px);
-  font-size: clamp(0.5rem,50%,1rem);
-}
-
-.input-checkbox{
-  justify-content: left;
-  place-items: left;
-}
-
 #main {
   background-color: var(--color-darkblue-alpha);
-  width: clamp(250px,50%,1000px);
+  width: clamp(250px, 50%, 1000px);
   font-size: clamp(15px, 50%, 50px);
   height: auto;
   border-radius: 0.25rem;
   display: grid;
   grid-template-columns: left;
   grid-template-rows: left;
+  margin: 10px auto auto auto;
+  border: 1px solid;
+}
+
+
+
+#name,
+#email,
+#age,
+#form-group {
+  padding: 0.25rem;
+  align-items: center;
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
+
+#place-holder,
+#dropdown {
+  margin-top: clamp(2px,50%,4px);
+  margin-left: 10px;
+  margin-right: 10px; 
+  text-align: center;
+  font-size: clamp(0.75rem,50%,1.5rem);
+  
+}
+
+.text {
+  margin: 10px auto 10px 0;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
+
+#text {
+  margin: 5px auto 5px 0;
+  padding: 0.25rem;
+  font-size: clamp(1.25rem,50%,0.75rem);
+  color: var(--color-white);
+}
+span{
+  line-height: clamp(0.75rem,50%,1.5rem);
+  color: var(--color-white);
+}
+
+
+.input-checkbox {
   justify-content: left;
   place-items: left;
-  margin: 10px auto auto auto;
-  border: 1px solid
+  color: var(--color-white);
 }
-.droping{
-  animation: dropIn 1s ease forwards;
-  animation-delay: calc(var(--order)*100ms);
+
+#comments{
+ max-width:100%;
+ margin: 0 5px 5px 5px;
 }
-@keyframes dropIn{
-  from{transform: translateY(-500px);}
-  to {transform: translateY(0);}
+
+#commentorsugestion{
+  margin-bottom:0px;
 }
+.submit-button{
+  width: 95%;
+  color: var(--color-white);
+  background: var(--color-green);
+  border-radius: 5%;
+  font-size: 1rem;
+  margin: 10px 10px;
+}
+
+
+#codecamptitle {
+  margin: auto;
+  color: #F2F2F2;
+}
+
+#description {
+  font-size: 1rem;
+  margin: 5px auto auto auto;
+  color: #F2F2F2;
+}
+#codecamptitle:hover{
+  transform:scale(1.2);
+}
+#description:hover{
+  transform:scale(1.2);
+}
+.input-checkbox {
+  margin: 10px auto 5px 10px;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+
+
+
 
 .grid {
   width: clamp(200px, 50%, 600px);
