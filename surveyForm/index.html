@@ -4,24 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <header id="title">
       <h1 id="codecamptitle">freeCodeCamp Survey Form</h1>
       <p id="description">
         Thank you for taking the time to help us improve the platform
       </p>
     </header>
+
+    
+    <form action="" id="survey-form">
     <p style="background-image: url('https://miro.medium.com/max/875/0*xQwTirJ8sGya9dlS');"> 
     <main id="main">
-      <label for="name" id="name">Name</label>
+      <label for="name" id="name-label">Name</label>
       <input id="place-holder" type="text" placeholder="Enter your name" />
-      <label for="email" id="email">Email</label>
-      <input id="place-holder" type="text" placeholder="Enter your Email" />
-      <label for="age" id="age">Age(optional)</label>
-      <input id="place-holder" type="text" placeholder="Enter your Age" />
+      <label for="email" id="email-label">Email</label>
+      <input id="place-holder" type="text" title="Incorrent email adresss (format:example@email.com)" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" placeholder="Enter your Email" />
+      <label for="age" id="number-label">Age(optional)</label>
+      <input id="number" type="number" name = "age" min="10" max="99" placeholder="Enter your Age" />
       <label for="form-group" id="form-group"
         >Which option best describes your current role?</label
       >
@@ -176,6 +180,7 @@
         id="comments"
         placeholder="Enter your comment here..."
       ></textarea>
+    </form>
       <div>
         <button id="submit" class="submit-button" type="submit">Submit</button>
       </div>

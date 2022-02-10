@@ -41,9 +41,9 @@ body {
 
 
 
-#name,
-#email,
-#age,
+#name-label,
+#email-label,
+#number-label,
 #form-group {
   padding: 0.25rem;
   align-items: center;
@@ -51,7 +51,9 @@ body {
   color: var(--color-white);
 }
 
+
 #place-holder,
+#number,
 #dropdown {
   margin-top: clamp(2px,50%,4px);
   margin-left: 10px;
