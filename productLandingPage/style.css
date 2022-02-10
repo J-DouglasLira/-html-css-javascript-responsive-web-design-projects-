@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -79,54 +78,52 @@ body {
   background-color: var(--bs-dark-secondary);
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: 0.3fr auto 0.2fr 0.2fr;
-  border: 1px solid black;
   grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
 
 .grid,
-.header{
+.header {
   background-color: #444;
   color: black;
   padding: 25px;
 }
 
-.header{
+.header {
   grid-column: 1/5;
   grid-row-start: 2/3;
   background-color: var(--bs-light-secondary);
 }
 
-.sidebar{
+.sidebar {
   grid-column: 1/2;
   grid-row: 2/6;
   background-color: white;
 }
 
-.hero{
-grid-column: 2/3;
-min-height: 650px;
-height: 100%;
-width: 100%;
-min-width: 900px;
-background-color: cyan;
+.hero {
+  grid-column: 2/3;
+  min-height: 650px;
+  height: 100%;
+  width: 100%;
+  min-width: 900px;
 }
 
-.text-height{
+.text-height {
   font-size: 2rem;
 }
 
-#email{
+#email {
   margin-top: 10px;
   max-width: 275px;
   width: 100%;
-  padding: 5px; 
+  padding: 5px;
 }
 
-#submit{
+#submit {
   max-width: 150px;
   margin: 15px 0;
   width: 100%;
@@ -134,11 +131,11 @@ background-color: cyan;
   padding: 5px;
   border: 0;
   transition: background-color 1s;
-  background-color: var( --bs-warning);
+  background-color: var(--bs-warning);
 }
 
-#features{
-  display:grid;
+#features {
+  display: grid;
   width: 100%;
   max-width: auto;
   height: 100%;
@@ -147,19 +144,18 @@ background-color: cyan;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin: 120px 30px 0px auto;
-  
   background-color: white;
 }
 
-.icon{
+.icon {
   border: 1px solid black;
   grid-column: 1/2;
-  grid-row:1/2;
+  grid-row: 1/2;
   max-width: 100px;
   max-height: 100px;
   margin-left: 250px;
 }
-.icon2{
+.icon2 {
   background-color: white;
   border: 1px solid black;
   grid-column: 1/2;
@@ -169,51 +165,49 @@ background-color: cyan;
   margin-left: 250px;
 }
 
-.icon3{
+.icon3 {
   background-color: white;
   border: 1px solid black;
-  grid-column:1/2;
-  grid-row:4/6;
+  grid-column: 1/2;
+  grid-row: 4/6;
   max-width: 100px;
   max-height: 100px;
   margin-left: 250px;
 }
 
-.desc{
+.desc {
   border: 1px solid black;
   grid-column: 2/4;
   text-align: left;
 }
 
-.desc2{
+.desc2 {
   border: 1px solid black;
   grid-column: 2/4;
   grid-row: 2/4;
   text-align: left;
 }
-.desc3{
+.desc3 {
   border: 1px solid black;
   grid-column: 2/4;
   grid-row: 4/6;
   text-align: left;
 }
 
-.extra{
-  grid-column:2/4;
+.extra {
+  grid-column: 2/4;
   grid-row: 4/6;
   min-height: 300px;
 }
 
-#video{
+#video {
   width: 100%;
   height: 100%;
   max-width: 450px;
-  max-height: 300px
+  max-height: 300px;
 }
 
-
-
-.cards{
+.cards {
   display: grid;
   grid-column: 2/4;
   grid-row: 6/8;
@@ -222,20 +216,60 @@ background-color: cyan;
   max-height: 500px;
   grid-template-columns: 0.4fr 0.3fr 0.3fr;
   border: 1px solid black;
-
 }
 
 #tenor,
 #bass,
-#valve{
-  width: calc(100%/3);
+#valve {
+  width: 300px;
   margin: 10px;
+  height: auto;
   border: 1px solid;
   text-align: center;
-  height: 200px;
+  max-width: 400px;
+  max-height: 800px;
+  
+}
+.valor{
+  width: 300px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+
+}
+.card-conteud{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 300px;
+  font-size: 20px;
+}
+.tenorcard{
+  min-height: 20%;
+  border: 1px hidden ;
+  font-size: 1.75rem;
+  padding: 1.25rem;
+  background-color: var( --bs-body-color);
+}
+.tenor-conteud{ 
+  margin-top: 10px;
+  min-height: 60%;
+
 }
 
-.footer{
+.tenor-bottom{
+ min-height: 10%; 
+ margin-top: 15px;
+  
+}
+
+.btn{
+  width: 150px;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  border: 0 hidden;
+  background: var(--bs-dark-warning);
+}
+.footer {
   grid-column: 2/4;
-  grid-row: 8/9;
+  grid-row: 9/10;
 }
