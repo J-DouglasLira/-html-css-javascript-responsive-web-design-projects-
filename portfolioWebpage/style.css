@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  text-align: center;
+  border: 1px solid;
+  background-color: #ededed;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+#navbar{
+  display: flex;
+  justify-content: flex-end; 
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  max-height: 120px;
+  border: 1px solid;
+  z-index: 1;
+  background-color: #be3144;
+}
+
+.about{
+font-size: 2.2rem;
+padding: 2rem;
+}
+.work{
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+h1{
+  font-size: 6rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-size: 5rem;
+  text-align: center;
+}
+
+.coffe{
+margin-top: 0px;
+font-size: 2rem;
+}
+p{
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
+}
+
+.contact{
+font-size: 2.2rem;
+padding: 2rem;
+}
+#welcome-section{
+position:absolute;
+top: 120px;
+left: 0;
+width: 100vw;
+height: 80vw;
+border: 1px solid;
+background-color: #000;
+background-image: linear-gradient(62deg,#3a3d40 0%, #181719 100%);
+}
+
+#project{
+  position: absolute;
+  padding: 10rem 2rem;
+  text-align: center;
+  width: 100%;
+  height: 1280px;
+  left: 0;
+  top:  783px;
+  background-color: cyan;
+}
+
+#works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 100vw;
+  height: 700px;
+  background-color: #45567d;
+  position:absolute;
+  top: 2063px;
+  left:-2px;
+}
+
+.contatos-git{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 20px;
+}
+
+.contats-details{
+  padding: 1rem 2rem;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.btn{
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  border: 2px solid red;
+  height: 10px;
+  width: 100%;
+  background-color:red;
+}
+
+.footnote{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.fake{
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.contact-details{
+  font-size: 2.4rem;
+}
+
+a{
+  text-decoration: none;
+  color: #f0f0f0;
+}
