@@ -74,7 +74,7 @@ h1{
 }
 
 .sub-introduction{
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-style: italic;
   color: #be3144;
   font-weight: 200;
@@ -94,7 +94,7 @@ h1{
   background: #303841;
 }
 .mimic{
-  font-size: 3rem;
+  font-size: 6rem;
   color: #f0f0f0;
 }
 .name-work-together{
@@ -107,11 +107,15 @@ span{
   top: 100px;
 }
 
+.red-line{
+  margin-top: 50px;
+}
+
 footer{
   font-weight: 300;
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem;
   border-top: 4px solid red;
 }
 .projects-section-header{
@@ -127,9 +131,14 @@ p{
   color: #f0f0f0;
 }
 
+a{
+  padding: 20px 20px;
+}
+
 .contact-links{
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 200px;
   flex-wrap: wrap;
@@ -145,12 +154,6 @@ p{
   transition: transform 0.3s ease-out;
 }
 
-.btn{
-  
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-}
 
 
 
@@ -198,6 +201,14 @@ p{
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 2px;
+  }
+
+  .mimic{
+    font-size: 4rem;
+  }
+
+  .sub-introduction{
+    font-size: 1.5rem;
   }
 
   .contact-details{
