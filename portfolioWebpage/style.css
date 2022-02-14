@@ -83,14 +83,16 @@ h1{
 
 .projects{
   border: 1px solid;
-  height: 200vh;
+  max-height: auto;
   width: 100%;
   background: #45567d;
 }
+
+
 .contacts{
   position:relative;
   top: 0px;
-  height: 100vh;
+  height: auto;
   background: #303841;
 }
 .mimic{
@@ -119,7 +121,8 @@ footer{
   border-top: 4px solid red;
 }
 .projects-section-header{
-  max-width: 600px;
+  font-size: 3rem;
+  max-width: 800px;
   margin: 100px auto 3rem auto;
   border-bottom: 0.2rem solid #f0f0f0;
   color: #f0f0f0;
@@ -155,6 +158,13 @@ a{
 }
 
 
+.cards-container{
+display: grid;
+grid-template-columns: 0.35fr 0.35fr 0.35fr;
+grid-column-gap: 10px;
+padding: 10px 10px;
+margin-bottom: 50px;
+}
 
 
 
@@ -190,7 +200,8 @@ a{
   }
 
   .projects-section-header{ 
-    max-width: 300px;
+    font-size: 2.75rem;
+    max-width: 90%;
     margin: 50px auto 1.5rem auto;
     border-bottom: 0.2rem solid #f0f0f0;
     color: #f0f0f0;
@@ -220,6 +231,15 @@ a{
     padding: 1.5;
     font-size: 1.25rem;
   }
+
+  #myProjects{
+    margin: 25px 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+  }    
+
 }
 
 
